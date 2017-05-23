@@ -1,0 +1,156 @@
+.test {
+    width: 100px;
+    height: 100px;
+    background: orange;
+}
+.block1 {
+    width: 50px;
+    height: 50px;
+    background: orange;
+    position: relative;
+}
+.block2 {
+    width: 100px;
+    height: 100px;
+    background: blue;
+    position : absolute;
+}
+.block2-box {
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+/*анимированные кнопки*/
+/*кнопка1*/
+#myDiv {
+    margin: 30px auto;
+    width: 200px;
+    height: 60px;
+    /*background: transparent;*/
+    perspective: 900px;
+    position: relative;
+}
+#myBtn{
+    width: 100%;
+    height: 100%;
+    font-size: 1.5em;
+    position: absolute;
+    background: #1d9650;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: middle;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+#myBtn-on {
+  display: none;
+  float: left;
+  margin-left: 20px;
+}
+#myBtnDiv1 {
+
+    height: 0%;
+    width: 20px;
+    bottom: -2.5px;
+    position: absolute;
+    left: -1px;
+    background: #0e7138;
+    z-index: 2;
+    transform: rotateY(-27deg);
+}
+#myBtnDiv2 {
+    display: none;
+    height: 110%;
+    width: 20px;
+    bottom: -2.5px;
+    position: absolute;
+    left: -1px;
+    background: lightgreen;
+    z-index: 1;
+    transform: rotateY(-27deg);
+}
+/*вторая кнопка*/
+#myDiv2 {
+  margin: 30px auto;
+  width: 200px;
+  height: 60px;
+  overflow: hidden;
+  position: relative;
+  background: #1d9650;
+    color: #fff;
+    text-transform: uppercase;
+}
+#myDiv2 .box {
+    position: absolute;
+    top:0;
+}
+#myBtn2, #myBtn-on2, #myBtnDiv2_2 {
+  display: block;
+  width: 200px;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  text-align: center;
+  font-size: 1.5em;
+ }
+
+#myBtnDiv2_2 {
+ background: #148544;
+ height: 60px;
+}
+
+/*кнопка 3*/
+#myDiv3 {
+  margin: 30px auto;
+  width: 200px;
+  height: 60px;
+  /*background: transparent;*/
+  perspective: 900px;
+  position: relative;
+  background: #148544;
+}
+#myBtn_3 {
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  vertical-align: middle;
+  background: #1d9650;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 1.5em;
+}
+#myBtn_3, #myBtn-on3 {
+  float: left;
+}
+#myBtn-on3 {
+  display: none;
+  padding-left: 20px;
+}
+/*кнопка-телефон в \header*/
+#tel {
+    margin: 30px;
+}
+#tel-input {
+    width: 200px;
+    height: 50px;
+    display: none;
+    background: #fff8e1;
+    text-align: center;
+}
+.tel {
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+#tel img {
+    display: block;
+    position: absolute;
+    left: 228px;
+    top: -54px;
+    z-index: 1;
+    transform: rotate(7deg);
+    transition: transform 1s cubic-bezier(.5, -2, .5, -2);
+
+}
